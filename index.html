@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <title>Product Filter And Search</title>
+</head>
+<body>
+
+  <div class="container my-3">
+    <div class="row">
+      <div class="col-md">
+
+        <div class="bg-primary bg-gradient p-4 rounded">
+          <h1 class="fw-normal text-white">Product Filter And Search</h1>
+          <p class="fw-light text-light">
+            program ini dibuat dengan menggunakan bahasa pemrograman javascrjpt
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div class="input-group my-3">
+              <input type="text" class="form-control search py-2 px-3" placeholder="search product" autocomplete="off">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 mx-auto mb-3">
+            <div class="d-flex justify-content-center align-items-center flex-wrap">
+              <button class="btn btn-outline-primary rounded-1 my-1 active">All</button>
+              <button class="btn btn-outline-primary rounded-1 my-1 mx-1">Topwear</button>
+              <button class="btn btn-outline-primary rounded-1 my-1">Bottomwear</button>
+              <button class="btn btn-outline-primary rounded-1 my-1 mx-1">Jacket</button>
+              <button class="btn btn-outline-primary rounded-1 my-1">Watch</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="topwear">
+              <img src="images/topwear1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">REGULAR WHITE T-SHIRT</h5>
+                <h6 class="fw-normal price">$130</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="bottomwear">
+              <img src="images/bottomwear1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">COMFY GRAY PANTS</h5>
+                <h6 class="fw-normal price">$49</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="watch">
+              <img src="images/watch.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">SPORTY SMARTWATCH</h5>
+                <h6 class="fw-normal price">$89</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="bottomwear">
+              <img src="images/bottomwear2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">STYLISH PINK TROUSERS</h5>
+                <h6 class="fw-normal price">$50</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="topwear">
+              <img src="images/topwear2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">BASIC KNITTED TOP</h5>
+                <h6 class="fw-normal price">$29</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="jacket">
+              <img src="images/jacket1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">BLACK LEATHER JACKET</h5>
+                <h6 class="fw-normal price">$200</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="bottomwear">
+              <img src="images/bottomwear3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">BEIGE SHORT SKIRT</h5>
+                <h6 class="fw-normal price">$68</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-1">
+            <div class="card card-custom" data-type="jacket">
+              <img src="images/jacket2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title title">BROWN MEN'S JACKET</h5>
+                <h6 class="fw-normal price">$189</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
